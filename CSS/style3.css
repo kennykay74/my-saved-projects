@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: ;
+}
+
+body{
+    background: gray;
+}
+
+.container{
+    max-width: 400px;
+    margin: 20px auto;
+    background: rgb(209, 209, 209);
+    height: 600px;
+    border-radius: 20px;
+}
+
+.fa-user{
+    position: absolute;
+    margin-left: 346.5px;
+    margin-top: 25px;
+    z-index: 1;
+    font-size: 28px;
+    color: rgb(85, 69, 38);
+}
+
+.fa-right-to-bracket{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+
+.head p{
+       padding-top: 70px;
+       padding-left: 40px;
+       width: 60%;
+       font-size: 26px;
+       font-weight: 900;
+       font-family: 'Raleway', sans-serif;      
+       
+}
+
+.img img{
+    max-width: 55%;
+    height: 300px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 4px 6px 4px gray
+}
+.img .bike{
+    max-width: 10.23%;
+    border: none;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    position: absolute;
+    top: 152px;
+    height: 300px;
+    box-shadow: -4px 6px 4px gray;
+}
+.circle{
+    padding: 17px;
+    background: rgb(173, 170, 170);
+    display: inline-block;
+    border-radius: 20px;
+    border: 1.9px solid red;
+    float: right;
+    position: absolute;
+    margin-left: 340px;
+    margin-top: 20px;
+   
+    
+}
+
+.bk{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: absolute;
+    top: 440px;
+    left: 520px;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.lf{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+    top: 440px;
+    right: 520px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+  
+}
+
+.line:before{
+    content: "";
+    display: block;
+    width: 90px;
+    height: ;
+    position: absolute;
+    left: 525px;
+    top: 160px;
+    border: 0.9px solid rgb(255, 0, 0);
+    /* background: red; */
+}
+
+.first{
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 26px;
+
+}
+
+.last{
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 280px;
+
+}
+

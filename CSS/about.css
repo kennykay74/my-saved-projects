@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: gray;
+
+}
+
+.container{
+    max-width: 400px;
+    margin: 20px auto;
+    background: rgb(228, 227, 227);
+    height: 600px;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.box{
+    padding: 26px 26px;
+    background: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.fa-user{
+    position: absolute;
+    margin-left: 322px;
+    margin-top: -12px;
+    z-index: 1;
+    font-size: 28px;
+    color: rgb(85, 69, 38);
+
+}
+
+.fa-bars{
+    font-size: 30px;
+    position: absolute;
+
+    margin-top: -14px;
+}
+
+.logo img{
+    max-width: 40px;
+    position: absolute;
+    top: 26px;
+    margin-left: 660px;
+}
+
+.circle{
+    padding: 17px;
+    background: rgb(173, 170, 170);
+    display: inline-block;
+    border-radius: 20px;
+    border: 1.9px solid red;
+    position: absolute;
+    margin-left: 315px;
+    margin-top: -18px;    
+}
+
+.main-cont{
+    padding: 60px 60px;
+    background: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 6px hsl(0, 0%, 47%, 0.9), -3px -3px 6px hsl(0, 0%, 47%, 0.9);
+   
+    
+}
+
+.name{
+    color: gray;
+    position: absolute;
+    margin-left: -40px;
+    top: 120px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-cont .amt{
+font-size: 20px;
+   position: relative;
+   margin-left: -40px;
+   top: -10px;
+   font-weight: 900;
+  
+}
+
+.main-cont .name{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+.sav p{
+    position: absolute;
+    top: 210px;
+    margin-left: 40px;
+}
+
+.sav .num{
+    padding-left: 15px;
+    color: gray;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.fa-plus{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    margin-left: 3.5px;
+    margin-top: 3.3px;
+}
+
+.plus{
+    width: 30px;
+    height: 30px;
+    background: rgb(255, 55, 55);
+    display: inline;
+    border-radius: 25px;
+    position: absolute;
+    margin-left: 340px;
+    top: 200px;
+    box-shadow: 2px 2px 8px rgb(134, 134, 134, 0.6), -2px -2px 8px rgb(134, 134, 134, 0.6);
+    
+}
+
+.eye img{
+    max-width: 15px;
+    position: absolute;
+    top: 100px;
+    margin-left: 350px;
+    color: gray;
+}
+
+.cont{
+    padding: 190px 20px;
+    background: whitesmoke;
+    margin-bottom: 10px; 
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: -2px -2px 4px rgb(134, 134, 134, 0.6);
+    
+}
+
+.cont span{
+   position: absolute;
+   margin-top: -170px;
+   font-weight: 600;
+   color: rgb(61, 61, 61);
+}
+
+.box1{
+    width: 120px;
+    height: 100px;
+    background: skyblue;
+    display: block;
+    position: absolute;
+    top: 310px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+.hist{
+    font-size: 11px;
+    color: whitesmoke;
+    margin-left: 5px;
+    padding-top: 60px;
+    font-weight: 500;
+}
+
+.fa-right-left{
+    color: rgb(38, 100, 124);
+    font-weight: 900;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.arrow{
+    color: rgb(38, 100, 124);
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.fa-display{
+    font-size: 50px;
+    color: rgb(68, 138, 68);
+    margin-left: 5px;
+   
+}
+
+
+.tv{
+    font-size: 13px;
+    color: whitesmoke;
+    padding-top: 12px;
+    padding-left: 5px;
+   
+}
+
+.fa-clock-rotate-left{
+    color: rgb(182, 8, 37);
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 10px;
+    font-size: 45px;
+}
+
+.life{
+    color: whitesmoke;
+    position: absolute;
+    top: 175px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.fa-sim-card{
+    color: rgb(70, 32, 105);
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 22px;
+}
+
+.loan{
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.fa-credit-card{
+    font-size: 50px;
+    color: rgb(179, 139, 65);
+    padding-top: 15px;
+}
+
+.pay{
+    color: rgb(71, 58, 34);
+    padding-top: 5px;
+    padding-left: 8px;
+    font-size: 13px;
+}
+
+
+.fa-lightbulb{
+    font-size: 25px;
+    color: rgb(23, 73, 94);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.data{
+    color:  rgb(89, 40, 134);
+    padding-top: 135px;
+    padding-left: 2px;
+    display: inline-block;
+    font-size: 11px;
+}
+
+
+.box2{
+    width: 115px;
+    height: 100px;
+    background: rgb(243, 83, 110);
+    display: block;
+    position: absolute;
+    top: 310px;
+    margin-left: 147px;
+    border-radius: 4px;
+}
+
+.box3{
+    width: 110px;
+    height: 100px;
+    background: rgb(25, 172, 25);
+    display: block;
+    position: absolute;
+    top: 310px;
+    margin-left: 270px;
+    border-radius: 4px;
+}
+.box4{
+    width: 120px;
+    height: 186px;
+    background: #fff;
+    display: block;
+    position: absolute;
+    top: 415px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+.box4 img{
+    max-width: 145px;
+    height: 210px;
+    margin-left: 1.5px;
+    border-radius: 4px;
+}
+.box5{
+    width: 117px;
+    height: 100px;
+    background: skyblue;
+    display: block;
+    position: absolute;
+    top: 415px;
+    margin-left: 146px;
+    border-radius: 4px;
+}
+
+.box6{
+    width: 117px;
+    height: 105px;
+    background: rgb(253, 180, 44);
+    display: block;
+    position: absolute;
+    top: 520px;
+    margin-left: 146px;
+    border-radius: 4px;
+}
+
+.box7{
+    width: 110px;
+    height: 210px;
+    background: rgb(179, 119, 179);
+    display: block;
+    position: absolute;
+    top: 415px;
+    margin-left: 271px;
+    border-radius: 4px;
+}
+
+
+
+
